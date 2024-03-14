@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp.FinalTest.Ex02
+namespace Animal
 {
-    internal class Lion : Animal
+    internal class Tiger : Animal
     {
-        public Lion(int weight, string name) : base(weight, name)
+        public Tiger(int weight, string name) : base(weight, name)
         {
         }
 
         public override void Show()
         {
-            Console.WriteLine("Lion Details:");
+            Console.WriteLine("Tiger Details:");
             base.Show();
         }
     }

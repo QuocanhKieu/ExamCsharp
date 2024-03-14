@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp.FinalTest.Ex02
+namespace Animal
 {
     internal class Program
     {
